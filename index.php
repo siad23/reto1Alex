@@ -1,9 +1,9 @@
 
 <?php 
 
-// Autor: Alex
+// Autor: ALEX Reto1
 
-// Creamos la funcionURL para acceder a la URL de Yahoo Finance y retornar los valores del sitio web por return 
+// Se crea la funcionURL para acceder a la URL de Yahoo Finance y retornar los valores del sitio web por return 
 // se pasa como parametro la variable
 function funcionURL($link_yahooFinance) {
 
