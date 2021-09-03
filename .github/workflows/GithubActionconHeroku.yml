@@ -10,6 +10,8 @@ jobs:
       - uses: actions/checkout@v2
       - name: Deploy to Heroku
         uses: behe/heroku-build@v1
+        continue-on-error: true
+        
         with:
           app-name: "cpractmain"
           api-key: "${{secrets.CLAVE_HEROKU}}"
